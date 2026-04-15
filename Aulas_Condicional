@@ -1,0 +1,23 @@
+package aulasjava;
+
+import java.util.Scanner;
+
+
+public class Aula2 {
+    
+    public static void main(String[] args) {
+ 
+        String nome;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite seu nome: ");
+            nome = scanner.nextLine();
+            
+        if (!nome.equals("")) {
+            System.out.println("Ola "+nome);
+        }   
+        System.out.println("Fim");
+   
+    }
+}
